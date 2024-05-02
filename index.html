@@ -1,0 +1,427 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,400;1,100&display=swap"
+ rel="stylesheet">
+ <!-- icons_ -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+ integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <!-- swiper -->
+ <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+ <title>Job Portal</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <h2 class="navbar-logo"><a href="#">JOBACT</a></h2>
+           <div class="navbar-menu">
+            <a href="#jobs">JOBS</a>
+            <a href="#companies">Companies</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#blogs">Blogs</a>
+            <a href="#">Sign In</a>
+           </div>
+           <div class="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+           </div>
+    </nav>
+    <!-- header -->
+    <header>
+        <h1 class="header-title">
+            FIND YOUR <br> <span> PERFECT JOB </span> <br> EASILY
+        </h1>
+    </header>
+    <!-- search -->
+    <div class="search-wrapper">
+        <div class="search-box">
+            <div class="search-card">
+                <input class="search-input" type="text" placeholder="Job title or keyword">
+                <button class="search-button">Search</button>
+            </div>
+        </div>
+    </div>
+    <!-- filter box -->
+    <div class="filter-box">
+        <div class="filter-dropdown">
+            <select class="filter-select" id="job-level" name="job-level">
+                <option> Job level</option>
+                <option>Entry</option>
+                <option> Mid Semester</option>
+                <option>Director</option>
+            </select>
+
+            <select class="filter-select" id="job-function" name="job-function">
+                <option> Job Function</option>
+                <option>IT</option>
+                <option> Management</option>
+                <option>Education</option>
+            </select>
+
+            <select class="filter-select" id="employment" name="employment">
+                <option> Employment Type</option>
+                <option>InternShip</option>
+                <option> Part Time</option>
+                <option>Full Time</option>
+            </select>
+            <select class="filter-select" id="location" name="location">
+                <option> Location</option>
+                <option>Remote</option>
+                <option> US</option>
+                <option>UK</option>
+            </select>
+            <select class="filter-select" id="education" name="education">
+                <option> Education</option>
+                <option>High School</option>
+                <option> Bachelor's Degree</option>
+                <option>Master's Degree</option>
+            </select>
+        </div>
+        <div class="filter-chosen">
+            <div class="chosen-card">
+                Remote <i class="fas fa-times-circle"></i>
+            </div>
+            <div class="chosen-card">
+                Full time <i class="fas fa-times-circle"></i>
+            </div>
+            <div class="chosen-card">
+                Financial Tech <i class="fas fa-times-circle"></i>
+            </div>
+            <div class="chosen-card">
+                Entry Level <i class="fas fa-times-circle"></i>
+            </div>
+        </div>
+    </div>
+    <!-- job Listing -->
+    <section class="job-list" id="jobs">
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="/images/toyota.jpg">
+                <div class="job-detail">
+                    <h4> Toyota</h4>
+                    <h3> Mechanical Engineering</h3>
+                    <p> Lorem ipsum jhbsdcjbdcjbjcbejcbejvbeehb</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">JS</a>
+            </div>
+            <div class="job-posted">
+                Posted 2 mins ago
+            </div>
+        </div>
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="/images/mitsubishi.jpg">
+                <div class="job-detail">
+                    <h4> Mitsubishi</h4>
+                    <h3> Civil Engineering</h3>
+                    <p> Lorem ipsum jhbsdcjbdcjbjcbejcbejvbeehb</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">JS</a>
+            </div>
+            <div class="job-posted">
+                Posted 2 mins ago
+            </div>
+        </div>
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="/images/hitachi.jpg">
+                <div class="job-detail">
+                    <h4> Hitachi</h4>
+                    <h3> Software Engineering</h3>
+                    <p> Lorem ipsum jhbsdcjbdcjbjcbejcbejvbeehb</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#"> HTML</a>
+                <a class="label-b" href="#"> CSS</a>
+                <a class="label-c" href="#"> JS</a>
+            </div>
+            <div class="job-posted">
+                Posted 2 mins ago
+            </div>
+        </div>
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="/images/sony.jpg">
+                <div class="job-detail">
+                    <h4> Sony</h4>
+                    <h3> Mechanical Engineering</h3>
+                    <p> Lorem ipsum jhbsdcjbdcjbjcbejcbejvbeehb</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">JS</a>
+            </div>
+            <div class="job-posted">
+                Posted 2 mins ago
+            </div>
+        </div>
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="/images/dia -ichi life.jpg">
+                <div class="job-detail">
+                    <h4> Dia -ichi life</h4>
+                    <h3> Business Analyst</h3>
+                    <p> Lorem ipsum jhbsdcjbdcjbjcbejcbejvbeehb</p>
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">JS</a>
+            </div>
+            <div class="job-posted">
+                Posted 2 mins ago
+            </div>
+        </div>
+
+        <button class="job-more">More List</button>
+    </section>
+    <!-- join -->
+    <section class="join">
+        <div class="join-detail">
+            <h1 class="section-title">LETS START YOUR NEW JOB WITH US </h1>
+            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, 
+                alias inventore est rerum consectetur veniam dicta excepturi incidunt, 
+                perspiciatis, explicabo impedit odit illum quia quae ex voluptas. Cumque, commodi assumenda?</p>
+        </div>
+        <button class="join-button">JOIN NOW</button>
+    </section>
+
+    <!-- featured company -->
+    <section class="featured" id="companies">
+        <h1 class="section-title"> Featured Companies</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Quia sunt nemo asperiores ad voluptate commodi illo nulla inventore 
+        beatae aperiam veritatis culpa sequi perspiciatis aliquam, ea expedita sed vel libero.</p>
+        <div class="featured-wrapper">
+            <div class="featured-card">
+                <img class="featured-image" src="/images/dia -ichi life.jpg">
+                <p>Dai-ichi Life`</p>
+                <button class="featured-button"> View 2 jobs</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="/images/hitachi.jpg">
+                <p>Hitachi</p>
+                <button class="featured-button"> View 2 jobs</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="/images/sony.jpg">
+                <p>Sony</p>
+                <button class="featured-button"> View 2 jobs</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="/images/toyota.jpg">
+                <p>Toyota</p>
+                <button class="featured-button"> View 2 jobs</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="/images//google.jpg">
+                <p>Google</p>
+                <button class="featured-button"> View 2 jobs</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="/images/fb.jpg">
+                <p>FB</p>
+                <button class="featured-button"> View 2 jobs</button>
+            </div>
+        </div>
+        </section>
+        <!-- testimonials -->
+        <section class="testimoni" id="testimoni">
+            <h1 class="section-title"> Testimonials</h1>
+            <p> Lets see what our clients say about us  </p>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <i class="fas fa-quote-left"></i>
+                        <h3>Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Laudantium hic deleniti autem nam id 
+                            obcaecati impedit debitis veniam? Laborum dicta modi, 
+                            dignissimos sit eligendi rerum ipsum facilis animi nesciunt cum!</h3>
+                            <div class="testimoni-pic">
+                                <img src="/images/JAP-PROF-1.jpg">
+                                <p> John Smith</p>
+                                <span> Business Development </span>
+                            </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <i class="fas fa-quote-left"></i>
+                        <h3>Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Laudantium hic deleniti autem nam id 
+                            obcaecati impedit debitis veniam? Laborum dicta modi, 
+                            dignissimos sit eligendi rerum ipsum facilis animi nesciunt cum!</h3>
+                            <div class="testimoni-pic">
+                                <img src="/images/JAP-PROF-2.jpg">
+                                <p> John Smith</p>
+                                <span> Business Development </span>
+                            </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <i class="fas fa-quote-left"></i>
+                        <h3>Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Laudantium hic deleniti autem nam id 
+                            obcaecati impedit debitis veniam? Laborum dicta modi, 
+                            dignissimos sit eligendi rerum ipsum facilis animi nesciunt cum!</h3>
+                            <div class="testimoni-pic">
+                                <img src="/images/JAP-PROF-3.jpg">
+                                <p> John Smith</p>
+                                <span> Business Development </span>
+                            </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <i class="fas fa-quote-left"></i>
+                        <h3>Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Laudantium hic deleniti autem nam id 
+                            obcaecati impedit debitis veniam? Laborum dicta modi, 
+                            dignissimos sit eligendi rerum ipsum facilis animi nesciunt cum!</h3>
+                            <div class="testimoni-pic">
+                                <img src="/images/JAP-PROF-4.jpg">
+                                <p> John Smith</p>
+                                <span> Business Development </span>
+                            </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <i class="fas fa-quote-left"></i>
+                        <h3>Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Laudantium hic deleniti autem nam id 
+                            obcaecati impedit debitis veniam? Laborum dicta modi, 
+                            dignissimos sit eligendi rerum ipsum facilis animi nesciunt cum!</h3>
+                            <div class="testimoni-pic">
+                                <img src="/images/JAP-PROF-5.jpg">
+                                <p> John Smith</p>
+                                <span> Business Development </span>
+                            </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <i class="fas fa-quote-left"></i>
+                        <h3>Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Laudantium hic deleniti autem nam id 
+                            obcaecati impedit debitis veniam? Laborum dicta modi, 
+                            dignissimos sit eligendi rerum ipsum facilis animi nesciunt cum!</h3>
+                            <div class="testimoni-pic">
+                                <img src="/images/JAP-PROF-6.jpg">
+                                <p> John Smith</p>
+                                <span> Business Development </span>
+                            </div>
+                    </div>
+            </div>
+            </div>
+        </section>
+        <!-- blog -->
+        <section class="blog" id="blog">
+            <h1 class="section-title"> Japanese Culture</h1>
+            <!-- <p> Learn more career tips from company's recruiter</p> -->
+            <div class="blog-wrapper">
+                <div class="blog-card">
+                    <img class="blog-image" src="/images/BOLG 1 SUSHI.jpg">
+                    <div class="blog-detail">
+                        <!-- <span> 11 Apr 2022</span> -->
+                        <h4> Sushi</h4>
+                        <p>
+                            Sushi is a traditional Japanese dish that has become popular worldwide. 
+                            It is often associated with Japanese culture and cuisine, embodying various 
+                            aspects of Japanese culinary traditions, craftsmanship, and aesthetics.</p>
+                        <hr class="divider">
+                        <a href="#" class="blog-more">Read</a>
+                    </div>
+                    <div class="blog-card">
+                        <img class="blog-image" src="/images/BOLG 1 CHERRY BLOSSOM.jpg">
+                        <div class="blog-detail">
+                            <!-- <span> 11 Apr 2022</span> -->
+                            <h4> Cherry Blossom</h4>
+                            <p>
+                                Cherry blossoms (known as "sakura" in Japanese) hold profound 
+                                cultural significance in Japan and are celebrated each spring 
+                                during the cherry blossom season, known as "hanami."</p>
+                            <hr class="divider">
+                            <a href="#" class="blog-more">Read</a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <img class="blog-image" src="/images/BOLG 1 ANIMME.jpg">
+                        <div class="blog-detail">
+                            <span> 11 Apr 2022</span>
+                            <h4> Anime</h4>
+                            <p>Anime culture encompasses a broad range of elements that make 
+                                up the fascination and engagement with Japanese animated television 
+                                shows and films, both within Japan and internationally. Anime has become a 
+                                significant aspect of Japanese pop culture, influencing art, entertainment, 
+                                fashion, and even language.</p>
+                            <hr class="divider">
+                            <a href="#" class="blog-more">Read</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer>
+        <div class="footer-wrapper">
+            <h3> JOBACT</h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis magni laboriosam, 
+                nesciunt voluptatem at enim harum ratione quod fugiat recusandae porro perferendis officia cumque,
+                perspiciatis eum omnis id! Architecto, aliquam!</p>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter-f"></i></a>
+                <a href="#"><i class="fab fa-linkedin-f"></i></a>
+                <a href="#"><i class="fab fa-youtube-f"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-wrapper">
+            <h4>Explore</h4>
+            <a href="#"> Top Companies</a>
+            <a href="#"> Terms of Services</a>
+            <a href="#"> Podcasts</a>
+            <a href="#"> Careers</a>
+        </div>
+
+        <div class="footer-wrapper">
+            <h4>About</h4>
+            <a href="#"> FAQ</a>
+            <a href="#"> Get Inspired</a>
+            <a href="#"> Blog</a>
+        </div>
+
+        <div class="footer-wrapper">
+            <h4>Support</h4>
+            <a href="#"> Customer Services</a>
+            <a href="#"> Trust & Safety</a>
+            <a href="#"> Partnership</a>
+            
+        </div>
+
+        <div class="footer-wrapper">
+            <h4>Community</h4>
+            <a href="#"> Communtiy</a>
+            <a href="#"> Invite a Friend</a>
+            <a href="#"> Event</a>
+            
+        </div>
+    </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+       <!-- jquery cdn -->
+       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+       
+        <script src="app.js"></script>
+</body>
+</html>
