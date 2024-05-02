@@ -58,3 +58,7 @@ Contributions are welcome! Feel free to open issues or pull requests for improve
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Link for the hosted website
+
+https://jobportalmobilicis.netlify.app/
